@@ -28,6 +28,6 @@
                         </div>
                     </div>
                     <hr>
-                    <button type="submit" class="btn btn-danger">Alterar</button>
+                    <button type="submit" class="btn btn-secondary">Alterar</button>
                 </form>
 </div>
