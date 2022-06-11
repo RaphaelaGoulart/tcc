@@ -2,7 +2,7 @@
         <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
           <div class="card">
             <div class="">
-              <div class="icon icon-lg icon-shape bg-gradient-success shadow-success text-center border-radius-xl mt-n4 position-absolute">
+              <div class="icon icon-lg icon-shape bg-gradient-danger shadow-danger text-center border-radius-xl mt-n4 position-absolute">
                 <i class="material-icons opacity-10">person</i>
               </div>
               <div class="text-end pt-1">
@@ -20,7 +20,7 @@
                         <div class="input-group mb-3">
                           <input type="text" class="form-control" placeholder="Digite aqui"  aria-describedby="basic-addon2">
                         </div>
-                      <button class="btn btn-primary" type="submit">Gerar</button>
+                      <button class="btn btn-danger" type="submit">Gerar</button>
                     </form>
                   </div>
               </div>

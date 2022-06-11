@@ -10,7 +10,7 @@
   <div class="container-fluid py-4">
     <div class="row1">
       <div class="col-12">
-        <div class="card my-4">
+        <div class="card my-4" id="lista">
           <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
             <div class="bg-gradient-danger shadow-danger border-radius-lg pt-4 pb-3">
               <h6 class="text-white text-capitalize ps-3">Funcionários</h6>
@@ -86,8 +86,8 @@
             $posterior = (($pagina+1) >= $totalpagina) ? $totalpagina : $pagina+1;
 
             echo "<ul class='pagination'>";
-            echo "<li class='page-item'><a class='page-link' href='?page=lista_func&pagina=1'> Primeira</a></li> "; 
-            echo "<li class='page-item'><a class='page-link' href=\"?page=lista_func&pagina=$anterior\"> Anterior</a></li> ";
+            echo "<li class='page-item'><a class='page-link' href='?page=lista_func&pagina=1'> Pri</a></li> "; 
+            echo "<li class='page-item'><a class='page-link' href=\"?page=lista_func&pagina=$anterior\"> Ant</a></li> ";
 
             echo "<li class='page-item'><a class='page-link' href='?page=lista_func&pagina=".$pagina."'><strong>".$pagina."</strong></a></li> ";
 
@@ -96,8 +96,8 @@
               echo "<li class='page-item'><a class='page-link' href='?page=lista_func&pagina=".$i."'> ".$i." </a></li> ";
             }
 
-            echo "<li class='page-item'><a class='page-link' href=\"?page=lista_func&pagina=$posterior\"> Pr&oacute;xima</a></li> ";
-            echo "<li class='page-item'><a class='page-link' href=\"?page=lista_func&pagina=$totalpagina\"> &Uacute;ltima</a></li></ul>";
+            echo "<li class='page-item'><a class='page-link' href=\"?page=lista_func&pagina=$posterior\"> Pr&oacute;x</a></li> ";
+            echo "<li class='page-item'><a class='page-link' href=\"?page=lista_func&pagina=$totalpagina\"> &Uacute;lt</a></li></ul>";
 
           ?>	
         </div>

@@ -522,7 +522,7 @@ progress {
 }
 
 .imglogo{
-  margin-left: 6.5em;
+  margin-left:9em;
 }
 
 .lead {
@@ -737,12 +737,15 @@ progress {
   }
 }
 
-.row {
+#lista{
+padding: 1em;
+}
+.row1 {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
-  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-top: -2.2em;
   margin-right: calc(-.5 * var(--bs-gutter-x));
   margin-left: calc(-.5 * var(--bs-gutter-x));
 }
