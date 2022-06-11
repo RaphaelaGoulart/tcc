@@ -16,7 +16,7 @@
 	<div class="row"> 
 		<div class="form-group col-md-2">
 			<label for="id">ID</label>
-			<input type="text" class="form-control" name="id" value="<?php echo $row["id"]; ?>">
+			<input type="text" class="form-control" name="id" value="<?php echo $row["id"]; ?>" readonly>
 		</div>
 		<div class="form-group col-md-5">
 			<label for="nome">Nome Completo</label>
@@ -38,6 +38,11 @@
         <div class="form-group col-md-2">
 			<label for="nivel_func">Nível</label>
 			<select class="form-control" name="nivel_func">
+					<option> --------- </option>
+					<option value="1">Funcionário Usuário</option>
+					<option value="2">Administrador</option>
+					<option value="3">Funcionário não Usuário</option>
+				
 				<?php 
                     if($info["nivel"] == 1){
                         echo "<td>Funcionário Usuário</td>";
