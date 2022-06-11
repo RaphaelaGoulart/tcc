@@ -53,7 +53,15 @@
           <?php 
             include "../base/con_escola.php";
             include "../base/ch_pages.php";
-         
+            if (!isset($_SESSION)) session_start();
+            switch($_SESSION['UsuarioNivel']){
+              case 1:
+                include "usuarios/cards_rest1.php";
+                break;
+              case 2:
+                // include "cards_rest2.php";
+                break;
+            }
           ?>
     </div>
     <!-- FIM CONTENT -->

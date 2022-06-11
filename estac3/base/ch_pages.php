@@ -48,6 +48,14 @@
             case "atualiza_estac":
                 include "estacionamento/atualiza_estac.php";
                 break;
+
+            //Parte funcionario
+            case "perfil_usu":
+                include "usuarios/perfil_usu.php";
+                break;
+            case "form_add_cli":
+                include "usuarios/form_add_cliente.php";
+                break;
             
             default:
             header("Location: ../index.php"); exit;
